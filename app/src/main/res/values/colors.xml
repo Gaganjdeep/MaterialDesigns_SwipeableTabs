@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF2B3149</color>
+    <color name="drawerSecondary_color">#232939</color>
+    <color name="Divider_color">#1d1d46</color>
+    <color name="Green_appTheme">#00C967</color>
+    <color name="White">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+</resources>

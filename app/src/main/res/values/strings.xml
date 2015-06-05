@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BrandBuzz</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_dashboard">Dashboard</string>
+    <string name="nav_item_myevent">My Event</string>
+    <string name="nav_item_mypic">My Pictures</string>
+    <string name="nav_item_event">My Events</string>
+    <string name="nav_item_myaccount">My Account</string>
+    <string name="nav_item_payment">My Payment</string>
+    <string name="nav_item_dispute_payment">Dispute Payment</string>
+    <string name="nav_item_support">Support</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_dashboard</item>
+        <item>@string/nav_item_myevent</item>
+        <item>@string/nav_item_mypic</item>
+        <item>@string/nav_item_event</item>
+        <item>@string/nav_item_myaccount</item>
+        <item>@string/nav_item_payment</item>
+        <item>@string/nav_item_dispute_payment</item>
+        <item>@string/nav_item_support</item>
+
+
+    </string-array>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_my_events">My Event</string>
+    <string name="title_my_pic">My Pictures</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+
+
+
+
+
+
+
+
+</resources>

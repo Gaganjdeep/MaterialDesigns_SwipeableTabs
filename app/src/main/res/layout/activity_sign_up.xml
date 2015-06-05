@@ -1,0 +1,95 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="30dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="false"
+        android:scrollbars="none"
+    >
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_wd_txt"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edName_Signup"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/white_bg"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:hint="Name"
+        android:textColor="@color/Black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edEmail_signup"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:padding="10dp"
+        android:background="@drawable/white_bg"
+        android:hint="Email"
+        android:textColor="@color/Black"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edPass_signup"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_bg"
+        android:hint="password"
+        android:textColor="@color/Black"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edCpaswd_signup"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:padding="10dp"
+        android:background="@drawable/white_bg"
+        android:hint="Confirm Password"
+        android:textColor="@color/Black"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/btnSignUp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/green_btn"
+        android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
